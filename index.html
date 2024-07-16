@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="OmniBind">
+  <meta name="keywords" content="multimodal, open-source, omni model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OmniBind</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  </head>
+
+  <style>
+
+    #main{
+        position: relative;;
+        width: 1200px;
+    }
+
+    .box{
+        float: left;
+        padding: 15px 0 0 15px;
+/*        background-color: red;*/
+    }
+
+    .pic{
+        width: 500px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .pic img{
+        width: 500px;
+    }
+
+  </style>
+
+  <body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2 class="title is-2 publication-title">OmniBind: Large-scale Omni Multimodal Representation via Binding Spaces</h2>
+          <div class="is-size-5">
+            <span class="author-block">
+                <a href="" style="color:#008AD7;font-weight:normal;">Zehan Wang*<sup></sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Ziang Zhang*<sup></sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Hang Zhang<sup></sup></a>,
+            </span>
+            <span class="hku-author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Luping Liu<sup></sup></a>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Rongjie Huang<sup></sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Xize Cheng<sup></sup></a>,
+            </span>
+            <span class="hku-author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Hengshuang Zhao<sup></sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" style="color:#008AD7;font-weight:normal;">Zhou Zhao<sup></sup></a>,
+            </span>
+            
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><b style="color:#008AD7; font-weight:normal">&#x25B6 </b> Zhejiang University </span>
+            <span class="hku-author-block"><b style="color:#008AD7; font-weight:normal">&#x25B6 </b> The University of Hong Kong </span>
+          </div>
+
+          <br>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                      <a href="" target="_blank"
+                         class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        🤗
+                      </span>
+                      <span>Models</span>
+                    </a>
+                  </span>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <img id="overview" width="100%" src="images/view.png">
+          <p>
+            <strong><font>Updates</font></strong>: OmniBind provide large-scale 3D-audio-image-language omni representation models, ranging in scale from 7B to 30B parameters, achieve SoTA on 13 benchmarks.
+            <br>
+            </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- <div align="center">
+<iframe
+  id="gradio"
+	src="http://103.170.5.190:7864/"
+	frameborder="0"
+	width="1300"
+	height="2300"
+></iframe>
+</div> -->
+
+<link rel="stylesheet" type="text/css" href="js/simple_style.css" />
+<script type="text/javascript" src="js/simple_swiper.js"></script>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+          <p>
+            Recently, human-computer interaction with various modalities has shown promising applications, like GPT-4o and Gemini.
+            Given the foundational role of multimodal joint representation in understanding and generation pipelines, high-quality omni joint representations would be a step toward co-processing more diverse multimodal information.
+            In this work, we present OmniBind, large-scale multimodal joint representation models ranging in scale from 7 billion to 30 billion parameters, which support 3D, audio, image, and language inputs.
+            Due to the scarcity of data pairs across all modalities, instead of training large models from scratch, we propose remapping and binding the spaces of various pre-trained specialist models together.
+            This approach enables "scaling up" by indirectly increasing the model parameters and the amount of seen data.
+            To effectively integrate various spaces, we dynamically assign weights to different spaces by learning routers with two objectives: cross-modal overall alignment and language representation decoupling.
+            Notably, since binding and routing spaces both only require lightweight networks, OmniBind is extremely training-efficient. Learning the largest 30B model requires merely unpaired unimodal data and approximately 3 days on a single 8-4090 node.
+            Extensive experiments demonstrate the versatility and superiority of OmniBind as an omni representation model, highlighting its great potential for diverse applications, such as any-query and composable multimodal understanding.
+          </p>
+          </div>
+      </div>
+      </div>
+      <br>
+      <br>
+
+<!-- Paper Model. -->
+<div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">OmniBind</h2>
+      <div class="content has-text-justified">
+        <img id="model" width="100%" src="images/model.png">
+        <p>
+          OmniBind integrates diverse knowledge of various existing multimodal models, leading to large-scale omni representations.
+          It learns routers to dynamically integrate various spaces and alleviate interference between knowledge of difference source.
+          OmniBind exhibits remarkable versatility and achieves state-of-the-art results on extensive downstream tasks over all modality pairs.
+        </p>
+      </div>
+      </h3>   
+    </div>
+  </div>
+
+<!--  <section class="section" id="BibTeX">-->
+<!--    <div class="container is-max-desktop content">-->
+<!--      <h2 class="title">BibTeX</h2>-->
+<!--      <pre><code>-->
+
+<!--  </code></pre>-->
+<!--    </div>-->
+<!--  </section>-->
+
+<section class="section">
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">Quantitative results</h2>
+        <img id="retrieval" width="80%" src="images/retrieval.png">
+        <img id="classification" width="80%" src="images/classification.png">
+        </div>
+      </div>
+  </section>
+
+<section class="section">
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">Qualitative applications</h2>
+        <img id="3daudio" width="80%" src="images/3D-audio.png">
+        <img id="application" width="80%" src="images/application.png">
+        </div>
+      </div>
+  </section>
+
+<script src="js/Underscore-min.js"></script>
+<script src="js/index.js"></script>
+
+<!-- <section class="section"> -->
+
+
+    
+
+</body>
+
+</html>
